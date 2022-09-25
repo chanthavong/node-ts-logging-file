@@ -5,7 +5,7 @@ logging track error and bug with winston
 ```ts
 import logger from "./lib/logger";
 
-logger.info("ts", { label: "PRODUCTION" });
+logger.info("Hello logging", { label: "PRODUCTION" });
 ```
 
 ### doc and referent
