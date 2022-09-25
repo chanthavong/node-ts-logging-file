@@ -9,7 +9,7 @@ const app = express();
 // });
 
 app.post("/", (req, res) => {
-  logger.info("ts", { level: "APP", label: "PRODUCTION" });
+  logger.info("Hello logging", { level: "APP", label: "PRODUCTION" });
   res.status(200).json({ status: "success" });
 });
 
